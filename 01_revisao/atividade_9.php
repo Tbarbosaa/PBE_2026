@@ -1,13 +1,13 @@
 <?php
 
-$idade = 16;
+$idade = 12;
 $acompanhado = TRUE;
 
 if ($idade >= 18){
     echo "Entrada liberada";
 }
 
-elseif ($idade > 14 or $idade < 17){
+elseif ($idade > 14 && $idade < 17){
     if ($acompanhado == TRUE){
         echo "Entrada liberada";
     }
@@ -16,7 +16,7 @@ elseif ($idade > 14 or $idade < 17){
     }
 }
 
-elseif ($idade < 14){
+else {
       echo "Entrada bloqueada";
 }
 
