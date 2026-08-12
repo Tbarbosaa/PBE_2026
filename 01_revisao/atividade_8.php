@@ -1,8 +1,8 @@
 <?php
 
-$num1 = 75;
-$num2 = 25;
-$operacao = "-";
+$num1 = 0;
+$num2 = 0;
+$operacao = "/";
 
 switch ($operacao){
 
@@ -19,13 +19,14 @@ switch ($operacao){
         break; 
         
       case "/":
-        echo "Resultado: ". ($num1 / $num2) ;
-        break; 
-        
+
         if ($num1 == 0 or $num2 == 0){
             echo "ERRO!";
         }
         break ;
+        echo "Resultado: ". ($num1 / $num2) ;
+        break; 
+  
 
     default:
         echo "Operação inválida";
