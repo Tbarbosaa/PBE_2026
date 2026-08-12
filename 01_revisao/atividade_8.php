@@ -1,8 +1,8 @@
 <?php
 
-$num1 = 75
-$num2 = 25
-$operacao = "+"
+$num1 = 75;
+$num2 = 25;
+$operacao = "-";
 
 switch ($operacao){
 
@@ -23,7 +23,7 @@ switch ($operacao){
         break; 
         
         if ($num1 == 0 or $num2 == 0){
-            echo "ERRO!"
+            echo "ERRO!";
         }
         break ;
 
