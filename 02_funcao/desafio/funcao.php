@@ -21,6 +21,11 @@ function calcularPedido ($nome, $preco, $qtd, $desconto = 0 ,$imposto = 0){
 }
 
 
+function CalculoFrete ($valorfinal){
+    $valorfinal_frete = $valorfinal + ($valorfinal / 10);
 
+    return  $valorfinal_frete;
+    
+}
 
 ?>

@@ -12,4 +12,6 @@ require_once "funcao.php";
  echo "Valor final : ". $resultado ["precofinal"]. "<br>";
  echo "Valor unitário final : ". $resultado ["valorunifinal"]. "<br>";
 
-?>
+echo "<br>";
+ $resultado2 = CalculoFrete ( $resultado ["precofinal"]);
+ echo "Valor total com frete : ". $resultado2 ;
