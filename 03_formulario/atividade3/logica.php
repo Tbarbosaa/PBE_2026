@@ -26,8 +26,5 @@ elseif ($operacao == "/"){
         $resultado = $num1 / $num2;
         echo $resultado;
     }
-    else{
-        echo "Selecione uma operação válida";
-    }
 }
 ?>
