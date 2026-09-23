@@ -6,11 +6,11 @@ $qtd_ingressos = $_POST ['qtd_ingressos'];
 $tipo = $_POST ['tipo'];
 
 if ($tipo == "inteira"){
-    $total = $qtd_ingressos * 10;
+    $total = $qtd_ingressos * 20;
 }
 
 else {
-    $total = $qtd_ingressos * 5;
+    $total = $qtd_ingressos * 10;
 }
 
 if ($qtd_ingressos >= 10){
