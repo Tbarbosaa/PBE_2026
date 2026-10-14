@@ -36,9 +36,9 @@ $funcionario1->exibir();
 echo "<hr>";
 $funcionario2 = new Funcionario ("Lucas", 2200);
 echo "<br>";
-$funcionario1->aumentarSalario (3);
+$funcionario2->aumentarSalario (3);
 echo "<br>";
-$funcionario1->exibir();
+$funcionario2->exibir();
 
 
 
